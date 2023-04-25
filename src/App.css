@@ -1,0 +1,64 @@
+.app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.app__title{
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.inputfield{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.inputfield > input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    width: 400px;
+    font-size: 20px;
+ 
+}
+.inputfield>Button{
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    opacity: 0.9;
+}
+.inputfield>Button:hover{
+    background: transparent;
+    color: blue;
+}
+.itemscontainer{
+  min-height: 400px;
+min-width: 520px;
+padding: 10px 20px;
+margin-top: 50px;
+background-color: white;
+border-radius: 10px;
+
+
+}
+.todoitems{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin: 10px 0;
+
+}
+.todoitems> p{
+    font-size: 20px;
+
+}
+
+.todoitems > Button:hover{
+    transform: scale(1.1);
+   
+}
